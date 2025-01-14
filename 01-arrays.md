@@ -54,3 +54,7 @@ fruits.sort(); // ['cherry', 'orange', 'pear']
 
 fruits.splice(1, 0, 'grape', 'kiwi', 'mango', 'papaya', 'peach', 'plum', 'raspberry'); // ['cherry', 'grape', 'kiwi', 'mango', 'papaya', 'peach', 'plum', 'raspberry', 'orange', 'pear']
 ```
+
+## References
+
+- [Youtube Video](https://www.youtube.com/watch?v=R8rmfD9Y5-c)

@@ -96,3 +96,27 @@ let add = (a, b) => a + b;
 console.log(add(5, 3)); // 8
 
 ```
+
+## Callback Functions
+
+In JavaScript, functions can be passed as arguments to other functions. These functions are called callback functions. Callback functions are commonly used in asynchronous programming to handle events or data processing. Here is an example of a callback function:
+
+```javascript
+
+function greet(name, callback) {
+    return 'Hello, ' + callback(name) + '!';
+}
+
+function uppercase(name) {
+    return name.toUpperCase();
+}
+
+console.log(greet('Alice', uppercase)); // Hello, ALICE!
+
+```
+
+In the example above, the `greet` function takes a name and a callback function as arguments. The callback function is called with the name as an argument and returns the name in uppercase.
+
+## References
+
+- [Youtube - JavaScript Functions](https://www.youtube.com/watch?v=FOD408a0EzU)
