@@ -35,6 +35,7 @@ function reverseString(str) {
 
 console.log(reverseString('hello')); // olleh
 console.log(reverseString('world')); // dlrow
+console.log(reverseString('Alice')); // ecilA
 
 ```
 
@@ -103,12 +104,12 @@ In JavaScript, functions can be passed as arguments to other functions. These fu
 
 ```javascript
 
-function greet(name, callback) {
+function greet(name, callback) { // name is a string, callback is a function
     return 'Hello, ' + callback(name) + '!';
 }
 
 function uppercase(name) {
-    return name.toUpperCase();
+    return name.toUpperCase(); // sara -> SARA
 }
 
 console.log(greet('Alice', uppercase)); // Hello, ALICE!
