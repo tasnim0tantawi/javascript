@@ -33,4 +33,31 @@ function numberOfLetter (name) {
 console.log(numberOfLetter("sara"))
 
 
+const x=20;
 
+
+// 5. Define a variable called age.
+// use it to print "underage" if less than 18, "adult" otherwise.
+
+let age=  19;
+if(age < 18){
+    console.log("underage")
+}
+else {
+    console.log("adult")
+}
+
+// 6. write code to calculate sum of cubes of array
+// [1, 2, 3, 4] --> 1^3 + 2^3 .. + 4^3 
+
+array = [10, 20, 30, 4]
+
+function calculateSum (array){
+    let cubes = 0;
+    for (i=0; i< array.length; i++){
+        cubes = cubes+array[i] * array[i] * array[i]
+    }
+    return cubes;
+}
+
+console.log(calculateSum(array))
