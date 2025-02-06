@@ -1,0 +1,13 @@
+ul{
+    list-style-type: none;
+
+}
+
+.ss{
+   display: flex;
+    justify-content: center;
+    gap: 40px;
+    font-size: large;
+    font-weight: bold;
+
+}

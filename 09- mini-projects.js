@@ -1,4 +1,4 @@
-// 1. Caeser cipher. Write a program that encrypts a text using a Caesar cipher.
+// 1. Caesar cipher. Write a program that encrypts a text using a Caesar cipher.
 function caesarCipher(key, message)
 { 
 

@@ -1,0 +1,41 @@
+{
+    "request": {
+        "type": "City",
+        "query": "Manama, Bahrain",
+        "language": "en",
+        "unit": "m"
+    },
+    "location": {
+        "name": "Manama",
+        "country": "Bahrain",
+        "region": "Al Manamah",
+        "lat": "26.236",
+        "lon": "50.583",
+        "timezone_id": "Asia/Bahrain",
+        "localtime": "2025-02-06 16:16",
+        "localtime_epoch": 1738858560,
+        "utc_offset": "3.0"
+    },
+    "current": {
+        "observation_time": "01:16 PM",
+        "temperature": 23,
+        "weather_code": 116,
+        "weather_icons": [
+            "https://cdn.worldweatheronline.com/images/wsymbols01_png_64/wsymbol_0002_sunny_intervals.png"
+        ],
+        "weather_descriptions": [
+            "Partly cloudy"
+        ],
+        "wind_speed": 23,
+        "wind_degree": 116,
+        "wind_dir": "ESE",
+        "pressure": 1007,
+        "precip": 0,
+        "humidity": 33,
+        "cloudcover": 50,
+        "feelslike": 25,
+        "uv_index": 0,
+        "visibility": 6,
+        "is_day": "yes"
+    }
+}
